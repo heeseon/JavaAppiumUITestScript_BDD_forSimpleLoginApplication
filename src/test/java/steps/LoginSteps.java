@@ -32,11 +32,11 @@ public class LoginSteps {
    //자동화 테스트 전처리
     @Before
     public void initializeAppiumSession() throws MalformedURLException{
-        File appDir = new File("/Users/hwangheeseon/Downloads/AppiumCucumberDemo-master/apps");
+        File appDir = new File("/Users/hwangheeseon/Downloads/AppiumCucumberDemo/apps");
         File app = new File(appDir, "app-debug.apk");
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("deviceName","Android Emulator");
-        capabilities.setCapability("automationName", "Selendroid");
+        //capabilities.setCapability("automationName", "Selendroid");
         capabilities.setCapability("platformName","Android");
 
         capabilities.setCapability("app", app.getAbsolutePath());
