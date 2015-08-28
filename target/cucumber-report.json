@@ -1,0 +1,122 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6764317460,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.initializeAppiumSession()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Passing valid credentials and log in into the application",
+        "description": "",
+        "id": "valid-login;passing-valid-credentials-and-log-in-into-the-application",
+        "after": [
+          {
+            "result": {
+              "duration": 811684793,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1063454577,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the landing page",
+            "match": {
+              "location": "LoginSteps.I_am_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6839784891,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter id as \"domich\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "domich",
+                  "offset": 15
+                }
+              ],
+              "location": "LoginSteps.I_enter_id_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6768083297,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter password as \"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginSteps.I_enter_password_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 382815223,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click login button",
+            "match": {
+              "location": "LoginSteps.I_click_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1041164682,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see the success message \"Logined\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logined",
+                  "offset": 34
+                }
+              ],
+              "location": "LoginSteps.I_should_see_the_success_message(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Valid Login",
+    "description": "",
+    "id": "valid-login",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
