@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 6764317460,
+  "duration": 10312864881,
   "status": "passed"
 });
 formatter.scenario({
@@ -47,7 +47,7 @@ formatter.match({
   "location": "LoginSteps.I_am_on_the_landing_page()"
 });
 formatter.result({
-  "duration": 1063454577,
+  "duration": 1154701784,
   "status": "passed"
 });
 formatter.match({
@@ -60,7 +60,7 @@ formatter.match({
   "location": "LoginSteps.I_enter_id_as(String)"
 });
 formatter.result({
-  "duration": 6839784891,
+  "duration": 6870174912,
   "status": "passed"
 });
 formatter.match({
@@ -73,14 +73,14 @@ formatter.match({
   "location": "LoginSteps.I_enter_password_as(String)"
 });
 formatter.result({
-  "duration": 6768083297,
+  "duration": 7260089354,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.I_click_login_button()"
 });
 formatter.result({
-  "duration": 382815223,
+  "duration": 384397133,
   "status": "passed"
 });
 formatter.match({
@@ -93,11 +93,11 @@ formatter.match({
   "location": "LoginSteps.I_should_see_the_success_message(String)"
 });
 formatter.result({
-  "duration": 1041164682,
+  "duration": 1127613817,
   "status": "passed"
 });
 formatter.after({
-  "duration": 811684793,
+  "duration": 507100328,
   "status": "passed"
 });
 });
